@@ -56,7 +56,8 @@ public class Main {
         context.out.println();
         context.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
         context.out.println("Android DX to D8 adapter");
-        context.out.println("Version 1.0-FEB-2023");
+        context.out.println("Version 1.0 (Feb 2023");
+        context.out.println("https://github.com/dandar3/android-dx-d8-adapter");
         context.out.println();
 
         // Arguments...
