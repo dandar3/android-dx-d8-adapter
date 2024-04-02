@@ -56,7 +56,8 @@ public class Main {
         context.out.println();
         context.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
         context.out.println("Android DX to D8 adapter");
-        context.out.println("Version 1.21-FEB-2023");
+        context.out.println("Version 1.0 (Feb 2023");
+        context.out.println("https://github.com/dandar3/android-dx-d8-adapter");
         context.out.println();
 
         // Arguments...
@@ -102,7 +103,6 @@ public class Main {
 
             // Calling "d8.jar"...
             final StopWatch stopWatch = new StopWatch();
-            context.out.println();
             context.out.println("D8 called with:");
             context.out.println("  jar       = " + d8JarPath);
             context.out.println("  arguments = " + Arrays.toString(d8Arguments.toArray()));
